@@ -1,0 +1,31 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+ @font-face {
+	font-family: 'Glyphicons';
+	src: url('fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+	src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/glyphicons-halflings-regular.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/glyphicons-halflings-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}
+ 
+nav {
+  font-family: 'Glyphicons';
+  }
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+}
