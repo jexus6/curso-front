@@ -1,32 +1,40 @@
-/*!
- * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
- */
-
-@font-face {
-    font-family: 'Glyphicons';
-    src: url('../fonts/glyphicons-halflings-regular.eot');
-    /* IE9 Compat Modes */
-    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/glyphicons-halflings-regular.svg#svgFontName') format('svg');
-    /* Legacy iOS */
-}
-
-nav {
-    font-family: Glyphicons;
-}
-
 body {
-    padding-top: 54px;
+    font-family: 'Titilliumweb', Helvetica, Arial, sans-serif;
+    font-size: 1, 5em;
+    background: #e7eaee;
 }
 
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
+.funcy-logo {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.nav-custom{
+    background-color: #e7eaee;
+}
+
+ nav ul {
+    font-weight: bold;
+ }
+    .center-title {
+        text-align: center;
+        top:90px;
+        position: absolute;
+        font-size: 3vw;
+        width: 100%;
+
+      }
+
+
+.banner{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.banner-text {
+    font-family: 'Titilliumweb', Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
 }
 
 .where header {
