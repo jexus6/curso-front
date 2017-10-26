@@ -9,27 +9,43 @@ body {
     font-size: 1.2em;
 }
 
-.nav-custom{
+.nav-custom {
     background-color: #e7eaee;
+    margin-left: 50px;
 }
 
- nav ul {
-    font-weight: bold;
- }
-    .center-title {
-        text-align: center;
-        top:90px;
-        position: absolute;
-        font-size: 3vw;
-        width: 100%;
+.nav-sign{
+    margin-right: 20px;
+}
 
-      }
+.imagen {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
 
-#funcy{
+nav ul {
     font-weight: bold;
 }
 
-.banner{
+.center-title {
+    text-align: center;
+    top: 90px;
+    position: absolute;
+    font-size: 3vw;
+    width: 100%;
+}
+
+#funcy {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner {
     padding: 0px;
     margin: 0px;
     width: 100%;
